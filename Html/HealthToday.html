@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+    <head> <!-- corpo do html-->
+        <meta charset = "UTF - 8">
+        <title> HealthToday • Controle sua Diabete </title>
+        <link rel = "icon" href = "icon/iconHealthToday.png"> <!-- icone da pagina -->
+        <meta nome = "viewport" content="width = device-width">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel = "stylesheet" href = "reset.css">
+        <link rel = "stylesheet" href ="Main.css">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Dongle:wght@300&family=Lobster&family=Montserrat:wght@500&family=Sedgwick+Ave&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header> <!-- cabecalho do body -->
+            <div class = "caixa">
+                <a href = "HealthToday.html"> <img src = "icon/iconHealthToday.png" alt="Logo do Site" class = "img1"> </a>
+                <img src = "icon/perfil.jpeg" alt = "Foto de perfil" class = "img2" button type = "submit">
+                <img src = "icon/removebg.png" alt = "Seta para abrir o menu" class = "img3" button type = "submit">
+            </div>
+        </header>
+
+        <nav class="menu-lateral">
+            <img src="icon/perfil.jpeg" alt = "Foto de perfil" class="menu-lateral__logo">
+            <a href="#" class="editarperfil"> <img src = "icon/001-lapis.png">  Editar perfil </a>
+            <a href="#" class="editarperfil"> <img src = "icon/002-reveja.png"> Feedback </a>
+            <a href="#" class="editarperfil"> <img src = "icon/003-sair.png"> Sair </a>
+        </nav>
+
+        <main> <!-- centro do body-->
+            <ul class = "cardapioregistros">
+                <li>
+                    <img src = "icon/cardapio.png">
+                    <h5> <a href = "cardapio.html"> Cardápios </a> </h5>
+                </li>
+                <li> 
+                    <img src = "icon/medkit.png" class = "kitmedico">
+                    <h5> Registros </h5>
+                </li>
+            </ul>
+            <div class = "lembretes">
+                <ul>
+                    <li> <img src = "icon/notificacao.png"> Lembretes <img src = "icon/close.png" class = "fechar"></li>
+                </ul>
+            </div>
+            <div class = "tarefas">
+                <input type = "checkbox" class = "botao1"> <h1> (12:30) Aplicar insulina </h1>
+                <input type = "checkbox" class = "botao2"> <h2> (11:30) Medir glicemia </h2>
+            </div>
+
+        </main>
+
+        <script src = "index.js"></script>
+    <footer> <!-- rodapé-->
+            <h1> <img src = "icon/iconHealthToday.png"> HealthToday </h1>
+            <p> © HealthToday - Todos os direitos reservados </p>
+            <nav class = "navdofooter">
+                <ul>
+                    <li> <a href = "HealthToday.html"> Home </a> </li>
+                    <li> <a href = "Forum.html"> Forum </a> </li>
+                    <li> <a href = "Termos.html"> Termos de uso </a> </li>
+                    <li> <a href = "Politica.html"> Política de privacidade </a> </li>
+                    <li> <a href = "Contato.html"> Nós contate !! </a> </li>
+                </ul>
+                <div class = "social-links">
+                    <img src = "social-links/faceicon.png">
+                    <img src = "social-links/instaicon.png">
+                    <img src = "social-links/twittericon.png">
+                </div>
+            </nav>
+        </footer>
+    </body>
+</html>
