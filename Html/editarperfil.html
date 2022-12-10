@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+    <head> <!-- corpo do html-->
+        <meta charset = "UTF - 8">
+        <title> HealthToday • Controle sua Diabete </title>
+        <link rel = "icon" href = "icon/iconHealthToday.png"> <!-- icone da pagina -->
+        <meta nome = "viewport" content="width = device-width">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel = "stylesheet" href = "reset.css">
+        <link rel = "stylesheet" href ="Main.css">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Dongle:wght@300&family=Lobster&family=Montserrat:wght@500&family=Sedgwick+Ave&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header> <!-- cabecalho do body -->
+            <div class = "caixa">
+                <a href = "HealthToday.html"> <img src = "icon/iconHealthToday.png" alt="Logo do Site" class = "img1"> </a>
+                <img src = "icon/perfil.jpeg" alt = "Foto de perfil" class = "img2" button type = "submit">
+                <img src = "icon/removebg.png" alt = "Seta para abrir o menu" class = "img3" button type = "submit">
+            </div>
+        </header>
+
+        <nav class="menu-lateral">
+            <img src="icon/perfil.jpeg" alt = "Foto de perfil" class="menu-lateral__logo">
+            <a href="editarperfil.html" class="editarperfil"> <img src = "icon/001-lapis.png">  Editar perfil </a>
+            <a href="Feedback.html" class="editarperfil"> <img src = "icon/002-reveja.png"> Feedback </a>
+            <a href = "loginprincipal.html" class="editarperfil"> <img src = "icon/003-sair.png"> Sair </a>
+        </nav>
+
+        <main> <!-- centro do body-->
+            <img src = "icon/voltar.png" class = "voltarimg"> <input type="button" value="Voltar" onClick="history.go(-1)" class = "voltar">
+            <div class = "caixaeditarperfil">
+                <div class = "primeiraedicao">
+                    <ul> 
+                        <img src = "icon/mais.png"> <img src = "icon/editar.png" class = "lapiscommargemgrande"> <li> Teresinha </li>
+                        <p>  Olá a todos, me chamo Teresinha, tenho diabetes do tipo II, fui diagnosticada quando criança e até hoje preciso tomar os medicamentos mas com cuidado e atenção consigo viver o dia a dia tranquilamente ! </p>
+                    </ul>
+                </div>
+                <div class = "segundaedicao">
+                    <img src = "icon/conversa.png"> <h1> Meus Feedback's: </h1>
+                    <ul>
+                        <li> Quando descobri a diabetes foi difícil de lidar, conseguir administrar o quanto e quando realizar a ingestão do remédio, mas com o auxílio do Health Today tenho conseguido alinhar minha alimentação, o horário e quantidade dos remédios, tendo um dia a dia mais saudável. </li>
+                    
+                    </ul>
+                </div>
+                <div class = "configuracoes">
+                    <img src = "icon/config.png"> <h2> Configurações</h2>
+                    <ul>
+                        <li> Conta privada ? <input type = "radio" name = "grupo1" value = "valor1" class = "botao1" checked> <img src = "icon/unlock.png" class = "unlock"> <input type = "radio" name = "grupo1" value = "valor2" class = "botao22"> <img src = "icon/block.png" class = "block"> </li>
+                        <li> Ajuda <a href = "https://support.google.com/"> <img src = "icon/search.png" class = "search"> </a> </li>
+                        <li> Compartilhe com amigos <a href = "Contato.html"> <img src = "icon/link.png" class = "connect"> </a> </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+
+        <script src = "index.js"></script>
+    <footer> <!-- rodapé-->
+            <h1> <img src = "icon/iconHealthToday.png"> HealthToday </h1>
+            <p> © HealthToday - Todos os direitos reservados </p>
+            <nav class = "navdofooter">
+                <ul>
+                    <li> <a href = "HealthToday.html"> Home </a> </li>
+                    <li> <a href = "Termos.html"> Termos de uso </a> </li>
+                    <li> <a href = "Politica.html"> Política de privacidade </a> </li>
+                    <li> <a href = "Contato.html"> Nós contate !! </a> </li>
+                </ul>
+                <div class = "social-links">
+                    <a href = "https://www.facebook.com/profile.php?id=100006274906749"> <img src = "social-links/faceicon.png"> </a>
+                    <a href = "https://www.instagram.com/healthtodayindonesia/"> <img src = "social-links/instaicon.png"> </a>
+                    <a href = "https://twitter.com/HealthTodayRwa"> <img src = "social-links/twittericon.png"> </a>
+                </div>
+            </nav>
+        </footer>
+        <!-- edited and thoughted by gabe-->
+    </body>
+</html>

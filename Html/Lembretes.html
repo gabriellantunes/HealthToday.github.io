@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+    <head> <!-- corpo do html-->
+        <meta charset = "UTF - 8">
+        <title> HealthToday • Controle sua Diabete </title>
+        <link rel = "icon" href = "icon/iconHealthToday.png"> <!-- icone da pagina -->
+        <meta nome = "viewport" content="width = device-width">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel = "stylesheet" href = "reset.css">
+        <link rel = "stylesheet" href ="Main.css">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Dongle:wght@300&family=Lobster&family=Montserrat:wght@500&family=Sedgwick+Ave&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header> <!-- cabecalho do body -->
+            <div class = "caixa">
+                <a href = "HealthToday.html"> <img src = "icon/iconHealthToday.png" alt="Logo do Site" class = "img1"> </a>
+                <img src = "icon/perfil.jpeg" alt = "Foto de perfil" class = "img2" button type = "submit">
+                <img src = "icon/removebg.png" alt = "Seta para abrir o menu" class = "img3" button type = "submit">
+            </div>
+        </header>
+
+        <nav class="menu-lateral">
+            <img src="icon/perfil.jpeg" alt = "Foto de perfil" class="menu-lateral__logo">
+            <a href="editarperfil.html" class="editarperfil"> <img src = "icon/001-lapis.png">  Editar perfil </a>
+            <a href="Feedback.html" class="editarperfil"> <img src = "icon/002-reveja.png"> Feedback </a>
+            <a href = "loginprincipal.html" class="editarperfil"> <img src = "icon/003-sair.png"> Sair </a>
+        </nav>
+
+        <main> <!-- centro do body-->
+            <img src = "icon/voltar.png" class = "voltarimg"> <input type="button" value="Voltar" onClick="history.go(-1)" class = "voltar">
+            <div class = "caixalembrete">
+                <h1> <img src= "icon/alarme.png"> Lembretes</h1>
+                <ul> 
+                    <li> Aplicar Insulina <input class = "date" type="date" value="2022-12-10"> <input type = "time" class = "timing" name = "hora" min = "00:00" max = "23:59" value = "09:00"> <p> Marcar como Conluída : </p> <input type = "checkbox" class = "ultimoinput"> </li>
+                    <li> Medir Glicemia <input class = "date" type="date" value="2022-12-10"> <input type = "time" class = "timing" name = "hora" min = "00:00" max = "23:59" value = "08:00"> <p> Marcar como Conluída : </p> <input type = "checkbox" class = "ultimoinput"> </li>
+                    <li> Medir Pressão  <input class = "date3" type="date" value="2022-12-09"> <input type = "time" class = "timing" name = "hora" min = "00:00" max = "23:59" value = "19:00"> <p> Marcar como Conluída : </p> <input type = "checkbox" class = "ultimoinput" value = "medir" checked> </li>
+                    <li> Comprar Remédios  <input class = "date4" type="date" value="2022-12-09"> <input type = "time" class = "timing" name = "hora" min = "00:00" max = "23:59" value = "10:00"> <p> Marcar como Conluída : </p> <input type = "checkbox" class = "ultimoinput" value = "medir" checked> </li>
+                    <li> Ir para Academia  <input class = "date5" type="date" value="2022-12-09"> <input type = "time" class = "timing" name = "hora" min = "00:00" max = "23:59" value = "06:00"> <p> Marcar como Conluída : </p> <input type = "checkbox" class = "ultimoinput" value = "medir" checked> </li>
+                </ul>
+            </div>
+        </main>
+
+        <script src = "index.js"></script>
+    <footer> <!-- rodapé-->
+            <h1> <img src = "icon/iconHealthToday.png"> HealthToday </h1>
+            <p> © HealthToday - Todos os direitos reservados </p>
+            <nav class = "navdofooter">
+                <ul>
+                    <li> <a href = "HealthToday.html"> Home </a> </li>
+                    <li> <a href = "Termos.html"> Termos de uso </a> </li>
+                    <li> <a href = "Politica.html"> Política de privacidade </a> </li>
+                    <li> <a href = "Contato.html"> Nós contate !! </a> </li>
+                </ul>
+                <div class = "social-links">
+                    <a href = "https://www.facebook.com/profile.php?id=100006274906749"> <img src = "social-links/faceicon.png"> </a>
+                    <a href = "https://www.instagram.com/healthtodayindonesia/"> <img src = "social-links/instaicon.png"> </a>
+                    <a href = "https://twitter.com/HealthTodayRwa"> <img src = "social-links/twittericon.png"> </a>
+                </div>
+            </nav>
+        </footer>
+        <!-- edited and thoughted by gabe-->
+    </body>
+</html>
