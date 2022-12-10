@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+    <head> <!-- corpo do html-->
+        <meta charset = "UTF - 8">
+        <title> HealthToday • Controle sua Diabete </title>
+        <link rel = "icon" href = "icon/iconHealthToday.png"> <!-- icone da pagina -->
+        <meta nome = "viewport" content="width = device-width">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel = "stylesheet" href = "reset.css">
+        <link rel = "stylesheet" href ="Main.css">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Dongle:wght@300&family=Lobster&family=Montserrat:wght@500&family=Sedgwick+Ave&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header> <!-- cabecalho do body -->
+            <div class = "caixa">
+                <a href = "HealthToday.html"> <img src = "icon/iconHealthToday.png" alt="Logo do Site" class = "img1"> </a>
+                <img src = "icon/perfil.jpeg" alt = "Foto de perfil" class = "img2" button type = "submit">
+                <img src = "icon/removebg.png" alt = "Seta para abrir o menu" class = "img3" button type = "submit">
+            </div>
+        </header>
+
+        <nav class="menu-lateral">
+            <img src="icon/perfil.jpeg" alt = "Foto de perfil" class="menu-lateral__logo">
+            <a href="editarperfil.html" class="editarperfil"> <img src = "icon/001-lapis.png">  Editar perfil </a>
+            <a href="Feedback.html" class="editarperfil"> <img src = "icon/002-reveja.png"> Feedback </a>
+            <a href = "loginprincipal.html" class="editarperfil"> <img src = "icon/003-sair.png"> Sair </a>
+        </nav>
+
+        <main> <!-- centro do body-->
+            <img src = "icon/voltar.png" class = "voltarimg"> <input type="button" value="Voltar" onClick="history.go(-1)" class = "voltar">
+            <h2 class = "escolhacardapio"> Tabela Semanal para Adultos: </h2>
+            <table class = "tabela1"> <!-- para dizer que essas celulas são as celulas do cabeçalho-->
+                <thead> <!-- uma linha -->
+                    <tr>
+                        <th> Adulto(a) </th>
+                        <th> Seg. </th>  <!-- uma celula-->
+                        <th> Ter. </th>
+                        <th> Quar. </th>
+                        <th> Qui. </th>
+                        <th> Sext. </th>
+                        <th> Sab. </th>
+                        <th> Dom. </th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td> Café da Manhã </td> <!-- Período -->
+                        <td> Mingau de Aveia </td> <!-- Segunda -->
+                        <td> Torrada Integral </td> <!-- Terça -->
+                        <td> Frutas </td> <!-- Quarta -->
+                        <td> Abacate </td> <!-- Quinta -->
+                        <td> Pão Integral + Mamão </td> <!-- Sexta -->
+                        <td> Mingau de Aveia </td> <!-- Sabado -->
+                        <td> Frutas </td> <!-- Domingo -->
+                    </tr>
+
+                    <tr>
+                        <td> Almoço </td> <!-- Período -->
+                        <td> Risotto de Frango </td> <!-- Segunda -->
+                        <td> Macarronada Integral de Carne Moída </td> <!-- Terça -->
+                        <td> Risotto de Frango </td> <!-- Quarta -->
+                        <td> Arroz Integral + Filé de Peixe </td> <!-- Quinta -->
+                        <td> Macarronada Integral de Carne Moída </td> <!-- Sexta -->
+                        <td> Sopa de Carne + Feijão + Legumes </td> <!-- Sabado -->
+                        <td> Macarronada Integral de Carne Moída </td> <!-- Domingo -->
+                    </tr>
+
+                    <tr>
+                        <td> Café da Tarde </td> <!-- Período -->
+                        <td> Abacate </td> <!-- Segunda -->
+                        <td> Pão Integral + Mamão </td> <!-- Terça -->
+                        <td> Mingau de Aveia </td> <!-- Quarta -->
+                        <td> Mingau de Aveia </td> <!-- Quinta -->
+                        <td> Frutas </td> <!-- Sexta -->
+                        <td> Torrada Integral </td> <!-- Sabado -->
+                        <td> Frutas </td> <!-- Domingo -->
+                    </tr>
+
+                    <tr>
+                        <td> Janta </td> <!-- Período -->
+                        <td> Canja de Frango </td> <!-- Segunda -->
+                        <td> Picadinho de Carne + Arroz Integral </td> <!-- Terça -->
+                        <td> Sopá de Carne + Feijão + Legumes </td> <!-- Quarta -->
+                        <td> Sanduíche de Frango Integral </td> <!-- Quinta -->
+                        <td> Canja de Frango </td> <!-- Sexta -->
+                        <td> Picadinho de Carne + Arroz Integral </td> <!-- Sabado -->
+                        <td> Sopá de Carne + Feijão + Legumes </td> <!-- Domingo -->
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+
+
+        <script src = "index.js"></script>
+    <footer> <!-- rodapé-->
+            <h1> <img src = "icon/iconHealthToday.png"> HealthToday </h1>
+            <p> © HealthToday - Todos os direitos reservados </p>
+            <nav class = "navdofooter">
+                <ul>
+                    <li> <a href = "HealthToday.html"> Home </a> </li>
+                    <li> <a href = "Termos.html"> Termos de uso </a> </li>
+                    <li> <a href = "Politica.html"> Política de privacidade </a> </li>
+                    <li> <a href = "Contato.html"> Nós contate !! </a> </li>
+                </ul>
+                <div class = "social-links">
+                    <a href = "https://www.facebook.com/profile.php?id=100006274906749"> <img src = "social-links/faceicon.png"> </a>
+                    <a href = "https://www.instagram.com/healthtodayindonesia/"> <img src = "social-links/instaicon.png"> </a>
+                    <a href = "https://twitter.com/HealthTodayRwa"> <img src = "social-links/twittericon.png"> </a>
+                </div>
+            </nav>
+        </footer>
+        <!-- edited and thoughted by gabe-->
+    </body>
+</html>
